@@ -1,4 +1,4 @@
-package leetcode.dynamicprogramming;
+package leetcode.dynamicprogramming.climbing;
 
 /**
  * @Author: huidong

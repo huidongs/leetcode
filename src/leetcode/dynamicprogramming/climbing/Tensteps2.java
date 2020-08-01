@@ -1,4 +1,4 @@
-package leetcode.dynamicprogramming;
+package leetcode.dynamicprogramming.climbing;
 
 import java.util.HashMap;
 
@@ -20,6 +20,7 @@ public class Tensteps2 {
         if (n==2){
             return 2;
         }
+        //containskey是判断键是是否存在
         if (hashMap.containsKey(n)){
             return hashMap.get(n);
         }else {
